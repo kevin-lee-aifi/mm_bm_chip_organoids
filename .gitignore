@@ -1,5 +1,5 @@
-.ipynb_checkpoint
-/EXP-01244/.ipynb_checkpoint
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 __pycache__
 /EXP-01244/data
 /EXP-01244/objects
