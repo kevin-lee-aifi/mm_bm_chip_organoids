@@ -2,4 +2,5 @@
 */.ipynb_checkpoints/*
 __pycache__
 /EXP-01244/data
-/EXP-01244/objects
+/EXP-01244/object
+/EXP-01244/cr_data
