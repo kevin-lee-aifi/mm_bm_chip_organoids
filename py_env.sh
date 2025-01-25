@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-PY_ENV="/home/workspace/environment/tissdiss_py_env"
+PY_ENV="/home/workspace/environment/mm_py_env"
 
 conda create -y -p $PY_ENV -c conda-forge \
     python=3.9 \
@@ -23,4 +23,4 @@ pip install scrublet \
     celltypist \
     git+https://github.com/complextissue/pyclustree.git@main
 
-python -m ipykernel install --user --name=tissdiss_py_env --display-name="Python (tissdiss_py_env)"
+python -m ipykernel install --user --name=tissdiss_py_env --display-name="Python (mm_py_env)"
