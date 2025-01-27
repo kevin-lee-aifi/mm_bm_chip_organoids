@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-R_ENV="/home/workspace/environment/tissdiss_r_env"
+R_ENV="/home/workspace/environment/mm_r_env"
 
 conda create -y -p $R_ENV -c conda-forge \
     r-base=4.3 \
@@ -29,7 +29,9 @@ if (!requireNamespace("remotes", quietly = TRUE)) {
 }
 remotes::install_github("mojaveazure/seurat-disk")
 
+remotes::install_github("satijalab/azimuth", ref = "master")
+
 remotes::install_cran("qs", type = "source", configure.args = "--with-simd=AVX2")
 '
 
-R -e "IRkernel::installspec(name = 'tissdiss_r_env', displayname = 'R (tissdiss_r_env)')"
+R -e "IRkernel::installspec(name = 'mm_r_env', displayname = 'R (mm_r_env)')"
