@@ -29,7 +29,7 @@ if (!requireNamespace("remotes", quietly = TRUE)) {
 }
 remotes::install_github("mojaveazure/seurat-disk")
 
-remotes::install_github("satijalab/azimuth", ref = "master")
+remotes::install_github("satijalab/azimuth")
 
 remotes::install_cran("qs", type = "source", configure.args = "--with-simd=AVX2")
 '

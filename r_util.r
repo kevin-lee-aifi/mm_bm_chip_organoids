@@ -5,7 +5,7 @@ library(dplyr, quietly = T)
 library(readxl, quietly = T)
 library(Seurat, quietly = T)
 library(SeuratObject, quietly = T)
-library(SeuratDisk, quietly = T)
+# library(SeuratDisk, quietly = T)
 library(harmony, quietly = T)
 
 process_h5 <- function(cr_out) {
