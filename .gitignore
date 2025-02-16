@@ -4,4 +4,5 @@ __pycache__
 /EXP-01244/objects
 /EXP-01244/data
 /EXP-01244/rerun_objects
-/EXP-01244/quality_control/qc_objects
+/EXP-01244/quality_control/objects
+/EXP-01244/object_building_processing/objects
