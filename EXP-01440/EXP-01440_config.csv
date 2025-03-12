@@ -4,7 +4,7 @@ probe-set,/home/workspace/cellranger-8.0.1/probe_sets/Chromium_Human_Transcripto
 create-bam,FALSE,
 [libraries],,
 fastq_id,fastqs,feature_types
-Undetermined,/home/workspace/mm_analysis/EXP-01440/fastqs/Undetermined_from_EXP-01440_Organoid_ds.c93e205db39e4547b350b18a0fe62e08,Gene Expression
+Undetermined,/home/workspace/mm_bm_chip_organoids/EXP-01440/fastqs/Undetermined_from_EXP-01440_Organoid_ds.c93e205db39e4547b350b18a0fe62e08,Gene Expression
 [samples],,
 sample_id,probe_barcode_ids,description
 OR00017,BC001,
