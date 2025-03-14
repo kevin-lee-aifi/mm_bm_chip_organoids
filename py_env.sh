@@ -20,7 +20,6 @@ pip install scrublet \
     fa2-modified \
     harmonypy \
     scib[main] \
-    celltypist \
-    git+https://github.com/complextissue/pyclustree.git@main
+    celltypist
 
 python -m ipykernel install --user --name=tissdiss_py_env --display-name="Python (mm_py_env)"

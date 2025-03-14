@@ -1,9 +1,11 @@
 #!/usr/bin/bash
 
+exp="EXP-01440"
+
 home="/home/workspace"
-cr_outs="${home}/mm_bm_chip_organoids/EXP-01440/cr_outs/outs/per_sample_outs"
-metrics="${home}/mm_bm_chip_organoids/EXP-01440/metrics_summaries"
-webs="${home}/mm_bm_chip_organoids/EXP-01440/web_summary"
+cr_outs="${home}/mm_bm_chip_organoids/${exp}/cr_outs/outs/per_sample_outs"
+metrics="${home}/mm_bm_chip_organoids/${exp}/metrics_summaries"
+webs="${home}/mm_bm_chip_organoids/${exp}/web_summary"
 
 rm -rf "$metrics" "$webs"
 mkdir -p "$metrics" "$webs"
