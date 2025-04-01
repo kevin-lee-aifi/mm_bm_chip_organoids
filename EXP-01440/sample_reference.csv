@@ -1,0 +1,16 @@
+id,exp_num,sample_type,donor,culture
+BMC07965-007,EXP-01440,bm_starter,Healthy Donor BMMC,starter sample
+BMC09023-003,EXP-01440,bm_starter,MM Donor 1 BMMC,starter sample
+BMC09025-003,EXP-01440,bm_starter,MM Donor 2 BMMC,starter sample
+CELL01173,EXP-01440,msc_starter,Healthy donor MSC,starter sample
+CELL01174,EXP-01440,msc_starter,MM Donor 1 MSC,starter sample
+CELL01176,EXP-01440,msc_starter,MM Donor 2 MSC,starter sample
+OR00005,EXP-01440,organoid,Healthy Donor,pro tumor
+OR00009,EXP-01440,organoid,Healthy Donor,anti tumor
+OR00013,EXP-01440,organoid,Healthy Donor,base
+OR00017,EXP-01440,organoid,MM donor 1,pro tumor
+OR00019,EXP-01440,organoid,MM donor 1,anti tumor
+OR00023,EXP-01440,organoid,MM donor 1,base
+OR00029,EXP-01440,organoid,MM donor 2,pro tumor
+OR00031,EXP-01440,organoid,MM donor 2,anti tumor
+OR00035,EXP-01440,organoid,MM donor 2,base

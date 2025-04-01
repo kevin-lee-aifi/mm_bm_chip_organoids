@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 import seaborn as sns
 from joblib import dump, load
-from pyclustree import clustree
+# from pyclustree import clustree
 import harmonypy as hm
 import os
 import scib
