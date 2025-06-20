@@ -29,6 +29,7 @@ pip install scrublet \
     anndata2ri \
     gprofiler-official \
     gseapy \
+    lxml
 
 # Install Bioconductor packages via R
 Rscript -e 'if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager"); BiocManager::install("SingleCellExperiment")'
